@@ -1,17 +1,23 @@
-export const sidebar = [
-    {
-      text: 'MediaX',
-      items: [
-        // { text: 'Markdown Examples', link: '/markdown-examples' },
-        // { text: 'Runtime API Examples', link: '/api-examples' }
-        { text: '概述', link: '/mediax/index.md' },
-      ]
-    },
-    {
-        text: 'MediaX-Pro',
-        items: [
-          { text: '概述', link: '/mediax-pro/index.md' },
-        ]
-      }
+import { menusByteDance, pathByte } from "./menus/byteDance.mts"
 
-  ]
+export const sidebar = [
+  {
+    text: 'MediaX',
+    items: [
+      { text: '概述', link: '/docs/mediax/index.md' },
+      {
+        text: '字节', link: pathByte + '/index.md',
+        items: menusByteDance
+
+      },
+
+    ]
+  },
+  {
+    text: 'MediaX-Pro',
+    items: [
+      { text: '概述', link: '/docs/mediax-pro/index.md' },
+    ]
+  }
+
+]
