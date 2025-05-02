@@ -50,7 +50,7 @@ func (c *ByteDanceDouYinACClient) GetContentActivityClient() *activity.DouYinCon
 #### func (*ByteDanceDouYinACClient) GetContentSchemaClient
 
 ```go
-func (c *ByteDanceDouYinACClient) GetContentSchemaClient() *schema.DouYinContentSchemaClient
+func (c *ByteDanceDouYinACClient) GetContentSchemaClient() *schemas.DouYinContentSchemasClient
 ```
 
 #### func (*ByteDanceDouYinACClient) GetContentTaskClient
