@@ -80,7 +80,7 @@ func (c *ByteDanceDouYinACClient) GetIMMessageClient() *message.DouYinIMMessageC
 #### func (*ByteDanceDouYinACClient) GetIMToolClient
 
 ```go
-func (c *ByteDanceDouYinACClient) GetIMToolClient() *tool.DouYinIMToolClient
+func (c *ByteDanceDouYinACClient) GetIMToolClient() *retainCard.DouYinIMToolClient
 ```
 
 #### func (*ByteDanceDouYinACClient) GetMarketServiceClient
