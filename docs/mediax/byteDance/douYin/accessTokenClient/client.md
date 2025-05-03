@@ -35,10 +35,10 @@ func (c *ByteDanceDouYinACClient) GetConnectionDataClient() *data.DouYinConnecti
 func (c *ByteDanceDouYinACClient) GetConnectionFanClient() *fan.DouYinConnectionFanClient
 ```
 
-#### func (*ByteDanceDouYinACClient) GetConnectionFanDataClient
+#### func (*ByteDanceDouYinACClient) GetConnectionFanProfileClient
 
 ```go
-func (c *ByteDanceDouYinACClient) GetConnectionFanDataClient() *fanData.DouYinConnectionFanDataClient
+func (c *ByteDanceDouYinACClient) GetConnectionFanProfileClient() *fanProfile.DouYinConnectionFanProfileClient
 ```
 
 #### func (*ByteDanceDouYinACClient) GetContentActivityClient
