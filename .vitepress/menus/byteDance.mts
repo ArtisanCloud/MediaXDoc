@@ -17,6 +17,8 @@ export const menusByteDance = [
                     { text: '用户数据', link: pathByteDanceDouYinAccessTokenClient + '/connection/data/client.md' },
                     { text: '粉丝判断', link: pathByteDanceDouYinAccessTokenClient + '/connection/fan/client.md' },
                     { text: '粉丝画像数据', link: pathByteDanceDouYinAccessTokenClient + '/connection/fanProfile/client.md' },
+                    { text: '私信管理', link: pathByteDanceDouYinAccessTokenClient + '/im/message/client.md' },
+                    { text: '粉丝群管理', link: pathByteDanceDouYinAccessTokenClient + '/im/group/client.md' },
                 ]
             },
             {
