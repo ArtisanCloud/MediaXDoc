@@ -44,7 +44,7 @@ https://developer.open-douyin.com/docs/resource/zh-CN/dop/develop/openapi/douyin
     *schema.DouYinSearchVideoRes 包含以下字段：
       • Extra: 通用返回信息（log_id、now、error_code 等）
       • Data:
-          - VideoList: 视频列表
+          - VideoList: 视频列表 []schema.Video
           - SearchId: 搜索ID
 
     error 调用过程中遇到的错误（如有）

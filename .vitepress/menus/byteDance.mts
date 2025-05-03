@@ -14,8 +14,8 @@ export const menusByteDance = [
                 items: [
                     { text: '视频', link: pathByteDanceDouYinAccessTokenClient + '/content/video/client.md' },
                     { text: '任务', link: pathByteDanceDouYinAccessTokenClient + '/content/task/client.md' },
-                    // { text: '场景跳转', link: pathByteDanceDouYinAccessTokenClient + '/content/schemas/client.md' },
-                    // { text: '经营任务', link: pathByteDanceDouYinAccessTokenClient + '/content/activity/client.md' },
+                    { text: '用户数据', link: pathByteDanceDouYinAccessTokenClient + '/connection/data/client.md' },
+                    { text: '粉丝判断', link: pathByteDanceDouYinAccessTokenClient + '/connection/fan/client.md' },
                 ]
             },
             {
@@ -27,6 +27,7 @@ export const menusByteDance = [
                     { text: '场景跳转', link: pathByteDanceDouYinClientTokenClient + '/content/schemas/client.md' },
                     { text: '经营任务', link: pathByteDanceDouYinClientTokenClient + '/content/activity/client.md' },
                     { text: '搜索能力', link: pathByteDanceDouYinClientTokenClient + '/search/client.md' },
+                
                 ]
             },
         ]
