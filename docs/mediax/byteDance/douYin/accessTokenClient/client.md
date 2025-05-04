@@ -47,12 +47,6 @@ func (c *ByteDanceDouYinACClient) GetConnectionFanProfileClient() *fanProfile.Do
 func (c *ByteDanceDouYinACClient) GetContentActivityClient() *activity.DouYinContentActivityClient
 ```
 
-#### func (*ByteDanceDouYinACClient) GetContentSchemaClient
-
-```go
-func (c *ByteDanceDouYinACClient) GetContentSchemaClient() *schemas.DouYinContentSchemasClient
-```
-
 #### func (*ByteDanceDouYinACClient) GetContentTaskClient
 
 ```go
@@ -77,10 +71,16 @@ func (c *ByteDanceDouYinACClient) GetIMGroupClient() *group.DouYinIMGroupClient
 func (c *ByteDanceDouYinACClient) GetIMMessageClient() *message.DouYinIMMessageClient
 ```
 
-#### func (*ByteDanceDouYinACClient) GetIMToolClient
+#### func (*ByteDanceDouYinACClient) GetIMToolAppletTemplateClient
 
 ```go
-func (c *ByteDanceDouYinACClient) GetIMToolClient() *retainCard.DouYinIMToolClient
+func (c *ByteDanceDouYinACClient) GetIMToolAppletTemplateClient() *appletTemplate.DouYinIMToolAppletTemplateClient
+```
+
+#### func (*ByteDanceDouYinACClient) GetIMToolRetainCardClient
+
+```go
+func (c *ByteDanceDouYinACClient) GetIMToolRetainCardClient() *retainCard.DouYinIMToolRetainCardClient
 ```
 
 #### func (*ByteDanceDouYinACClient) GetMarketServiceClient
@@ -89,22 +89,10 @@ func (c *ByteDanceDouYinACClient) GetIMToolClient() *retainCard.DouYinIMToolClie
 func (c *ByteDanceDouYinACClient) GetMarketServiceClient() *service.DouYinMarketServiceClient
 ```
 
-#### func (*ByteDanceDouYinACClient) GetMicAppClient
-
-```go
-func (c *ByteDanceDouYinACClient) GetMicAppClient() *micApp.DouYinMicAppClient
-```
-
 #### func (*ByteDanceDouYinACClient) GetOAuthClient
 
 ```go
 func (c *ByteDanceDouYinACClient) GetOAuthClient() *oauth.DouYinOAuthClient
-```
-
-#### func (*ByteDanceDouYinACClient) GetSandboxClient
-
-```go
-func (c *ByteDanceDouYinACClient) GetSandboxClient() *sandbox.DouYinSandboxClient
 ```
 
 #### func (*ByteDanceDouYinACClient) GetSearchClient

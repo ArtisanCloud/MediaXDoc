@@ -29,6 +29,12 @@ func NewByteDanceDouYinCTClient(cfg *config.ByteDanceDouYinConfig, logger *logge
 func (c *ByteDanceDouYinCTClient) GetContentActivityClient() *activity.DouYinContentActivityClient
 ```
 
+#### func (*ByteDanceDouYinCTClient) GetContentSchemaClient
+
+```go
+func (c *ByteDanceDouYinCTClient) GetContentSchemaClient() *schemas.DouYinContentSchemasClient
+```
+
 #### func (*ByteDanceDouYinCTClient) GetContentSchemasClient
 
 ```go
@@ -45,6 +51,18 @@ func (c *ByteDanceDouYinCTClient) GetContentTaskClient() *task.DouYinContentTask
 
 ```go
 func (c *ByteDanceDouYinCTClient) GetContentVideoClient() *video.DouYinContentVideoClient
+```
+
+#### func (*ByteDanceDouYinCTClient) GetMicAppClient
+
+```go
+func (c *ByteDanceDouYinCTClient) GetMicAppClient() *micApp.DouYinToolMicAppClient
+```
+
+#### func (*ByteDanceDouYinCTClient) GetSandboxClient
+
+```go
+func (c *ByteDanceDouYinCTClient) GetSandboxClient() *sandbox.DouYinSandboxClient
 ```
 
 #### func (*ByteDanceDouYinCTClient) GetSearchClient

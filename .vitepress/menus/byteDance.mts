@@ -34,10 +34,16 @@ export const menusByteDance = [
                             { text: '私信管理', link: pathByteDanceDouYinAccessTokenClient + '/im/message/client.md' },
                             { text: '群聊管理', link: pathByteDanceDouYinAccessTokenClient + '/im/group/client.md' },
                             { text: '经营工具', link: pathByteDanceDouYinAccessTokenClient + '/im/tool/client.md', },
-                            { text: '留资卡片', link: pathByteDanceDouYinAccessTokenClient + '/im/tool/retainCard/client.md' },
-                            { text: '小程序引导卡片', link: pathByteDanceDouYinAccessTokenClient + '/im/tool/appletTemplate/client.md' },
+                            { text: '--- 留资卡片', link: pathByteDanceDouYinAccessTokenClient + '/im/tool/retainCard/client.md' },
+                            { text: '--- 小程序引导卡片', link: pathByteDanceDouYinAccessTokenClient + '/im/tool/appletTemplate/client.md' },
                         ]
                     },
+                    {
+                        text: '工具能力',
+                        items: [
+                            { text: '素材管理', link: pathByteDanceDouYinAccessTokenClient + '/tools/media/client.md' },
+                        ]
+                    }
 
                 ]
             },
@@ -55,6 +61,13 @@ export const menusByteDance = [
                         ]
                     },
                     { text: '搜索能力', link: pathByteDanceDouYinClientTokenClient + '/search/client.md' },
+                    {
+                        text: '工具能力',
+                        items: [
+                            { text: '小程序接口能力', link: pathByteDanceDouYinClientTokenClient + '/tools/micApp/client.md' },
+                            { text: '沙盒管理', link: pathByteDanceDouYinClientTokenClient + '/tools/sandbox/client.md' },
+                        ]
+                    }
 
                 ]
             },

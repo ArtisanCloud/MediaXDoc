@@ -5,10 +5,10 @@
 
 ## Usage
 
-#### type DouYinMicAppClient
+#### type DouYinToolMicAppClient
 
 ```go
-type DouYinMicAppClient struct {
+type DouYinToolMicAppClient struct {
 	*kernel.BaseClient
 }
 ```
@@ -17,5 +17,5 @@ type DouYinMicAppClient struct {
 #### func  NewClient
 
 ```go
-func NewClient(c *kernel.BaseClient) *DouYinMicAppClient
+func NewClient(c *kernel.BaseClient) *DouYinToolMicAppClient
 ```
