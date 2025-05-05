@@ -62,11 +62,17 @@ func (c *ByteDanceDouYinCTClient) GetMicAppClient() *micApp.DouYinToolMicAppClie
 #### func (*ByteDanceDouYinCTClient) GetSandboxClient
 
 ```go
-func (c *ByteDanceDouYinCTClient) GetSandboxClient() *sandbox.DouYinSandboxClient
+func (c *ByteDanceDouYinCTClient) GetSandboxClient() *sandbox.DouYinToolSandboxClient
 ```
 
 #### func (*ByteDanceDouYinCTClient) GetSearchClient
 
 ```go
 func (c *ByteDanceDouYinCTClient) GetSearchClient() *search.DouYinSearchClient
+```
+
+#### func (*ByteDanceDouYinCTClient) GetTicketClient
+
+```go
+func (c *ByteDanceDouYinCTClient) GetTicketClient() *ticket.DouYinToolTicketClient
 ```

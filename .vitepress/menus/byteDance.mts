@@ -66,6 +66,7 @@ export const menusByteDance = [
                         items: [
                             { text: '小程序接口能力', link: pathByteDanceDouYinClientTokenClient + '/tools/micApp/client.md' },
                             { text: '沙盒管理', link: pathByteDanceDouYinClientTokenClient + '/tools/sandbox/client.md' },
+                            { text: 'ticket管理', link: pathByteDanceDouYinClientTokenClient + '/tools/ticket/client.md' },
                         ]
                     }
 
