@@ -10,7 +10,7 @@ export const menusByteDance = [
         collapsed: true,
         items: [
             {
-                text: 'AccessToken模式', link: pathByteDanceDouYinAccessTokenClient + '/index.md',
+                text: 'AccessToken模式', link: pathByteDanceDouYinAccessTokenClient + '/client.md',
                 collapsed: true,
                 items: [
                     {
@@ -49,12 +49,14 @@ export const menusByteDance = [
                         items: [
                             { text: '服务订阅关系', link: pathByteDanceDouYinAccessTokenClient + '/market/service/client.md' },
                         ]
-                    }
+                    },
+                    { text: '联合授权', link: pathByteDanceDouYinAccessTokenClient + '/oauth/client.md' },
+
 
                 ]
             },
             {
-                text: 'ClientToken模式', link: pathByteDanceDouYinClientTokenClient + '/index.md',
+                text: 'ClientToken模式', link: pathByteDanceDouYinClientTokenClient + '/client.md',
                 collapsed: true,
                 items: [
                     {

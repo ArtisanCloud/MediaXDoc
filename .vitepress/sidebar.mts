@@ -8,6 +8,7 @@ export const sidebar = [
     items: [
       { text: '概述', link: '/docs/mediax/index.md' },
       { text: '快速开始', link: '/docs/mediax/quickStart.md' },
+      { text: '授权类型', link: '/docs/mediax/token.md' },
       {
         text: '字节', link: pathByteDance + '/index.md',
         // collapsed: true,
