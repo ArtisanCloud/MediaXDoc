@@ -1,5 +1,5 @@
-export const pathByte = '/docs/mediax/byteDance'
-export const pathByteDanceDouYin = pathByte + '/douYin'
+export const pathByteDance = '/docs/mediax/byteDance'
+export const pathByteDanceDouYin = pathByteDance + '/douYin'
 export const pathByteDanceCore = pathByteDanceDouYin + '/core'
 export const pathByteDanceDouYinAccessTokenClient = pathByteDanceDouYin + '/accessTokenClient'
 export const pathByteDanceDouYinClientTokenClient = pathByteDanceDouYin + '/clientTokenClient'
@@ -43,6 +43,12 @@ export const menusByteDance = [
                         items: [
                             { text: '素材管理', link: pathByteDanceDouYinAccessTokenClient + '/tools/media/client.md' },
                         ]
+                    },
+                    {
+                        text: '服务市场开放能力',
+                        items: [
+                            { text: '服务订阅关系', link: pathByteDanceDouYinAccessTokenClient + '/market/service/client.md' },
+                        ]
                     }
 
                 ]
@@ -68,7 +74,8 @@ export const menusByteDance = [
                             { text: '沙盒管理', link: pathByteDanceDouYinClientTokenClient + '/tools/sandbox/client.md' },
                             { text: 'ticket管理', link: pathByteDanceDouYinClientTokenClient + '/tools/ticket/client.md' },
                         ]
-                    }
+                    },
+                    { text: '小程序推广计划', link: pathByteDanceDouYinClientTokenClient + '/taskBox/client.md' },
 
                 ]
             },

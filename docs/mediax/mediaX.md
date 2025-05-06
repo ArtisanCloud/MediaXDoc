@@ -53,6 +53,6 @@ CreateRedBookJuGuang 创建 RedBookClient，支持传入 RedBook 配置
 #### func (*MediaX) CreateWechatOfficialAccount
 
 ```go
-func (m *MediaX) CreateWechatOfficialAccount(cfg *config.WeChatOfficialAccountConfig) (*officialAccount.WeChatOfficialAccountClient, error)
+func (m *MediaX) CreateWechatOfficialAccount(cfg *config.WeChatOfficialAccountConfig) (*officialAccount.WeChatOfficialAccountCTClient, error)
 ```
 CreateWechatOfficialAccount 创建 WechatOfficialAccountClient，支持传入 WeChat 配置

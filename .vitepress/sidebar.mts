@@ -1,4 +1,5 @@
-import { menusByteDance, pathByte } from "./menus/byteDance.mts"
+import { menusByteDance, pathByteDance } from "./menus/byteDance.mts"
+import { menusWechat, pathWechat } from "./menus/wechat.mts"
 
 export const sidebar = [
   {
@@ -6,10 +7,15 @@ export const sidebar = [
     // collapsed: true,
     items: [
       { text: '概述', link: '/docs/mediax/index.md' },
+      { text: '快速开始', link: '/docs/mediax/quickStart.md' },
       {
-        text: '字节', link: pathByte + '/index.md',
+        text: '字节', link: pathByteDance + '/index.md',
         // collapsed: true,
         items: menusByteDance
+      },
+      { 
+        text: '微信', link: pathWechat +'/index.md' ,
+        items: menusWechat
       },
 
     ]
