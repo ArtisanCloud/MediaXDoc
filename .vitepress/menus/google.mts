@@ -17,6 +17,8 @@ export const menusGoogle = [
                     {text: '视频分类', link: pathGoogleYoutubeAccessTokenClient + '/videoCategory/client.md',},
                     {text: '视频滥用原因', link: pathGoogleYoutubeAccessTokenClient + '/videoAbuseReportReasons/client.md',},
                     {text: '水印', link: pathGoogleYoutubeAccessTokenClient + '/watermarks/client.md',},
+                    {text: '缩略图', link: pathGoogleYoutubeAccessTokenClient + '/thumbnails/client.md',},
+                    {text: '订阅', link: pathGoogleYoutubeAccessTokenClient + '/subscriptions/client.md',},
                 ]
             }
         ]
