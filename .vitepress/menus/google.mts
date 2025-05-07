@@ -22,6 +22,7 @@ export const menusGoogle = [
                     {text: '搜索', link: pathGoogleYoutubeAccessTokenClient + '/search/client.md',},
                     {text: '播放列表', link: pathGoogleYoutubeAccessTokenClient + '/playlists/client.md',},
                     {text: '播放列表项', link: pathGoogleYoutubeAccessTokenClient + '/playlistItems/client.md',},
+                    {text: '播放列表图片', link: pathGoogleYoutubeAccessTokenClient + '/playlistImages/client.md',},
                 ]
             }
         ]

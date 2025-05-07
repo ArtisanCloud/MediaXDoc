@@ -103,6 +103,12 @@ func (client *GoogleYouTubeACClient) GetMembershipsLevelsClient() *membershipsLe
 ```
 GetMembershipsLevelsClient 获取会员等级管理客户端
 
+#### func (*GoogleYouTubeACClient) GetPlaylistImagesClient
+
+```go
+func (client *GoogleYouTubeACClient) GetPlaylistImagesClient() *playlistImages.YoutubePlaylistImagesClient
+```
+
 #### func (*GoogleYouTubeACClient) GetPlaylistItemsClient
 
 ```go
