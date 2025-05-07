@@ -19,6 +19,9 @@ export const menusGoogle = [
                     {text: '水印', link: pathGoogleYoutubeAccessTokenClient + '/watermarks/client.md',},
                     {text: '缩略图', link: pathGoogleYoutubeAccessTokenClient + '/thumbnails/client.md',},
                     {text: '订阅', link: pathGoogleYoutubeAccessTokenClient + '/subscriptions/client.md',},
+                    {text: '搜索', link: pathGoogleYoutubeAccessTokenClient + '/search/client.md',},
+                    {text: '播放列表', link: pathGoogleYoutubeAccessTokenClient + '/playlists/client.md',},
+                    {text: '播放列表项', link: pathGoogleYoutubeAccessTokenClient + '/playlistItems/client.md',},
                 ]
             }
         ]
