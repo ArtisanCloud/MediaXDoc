@@ -36,9 +36,11 @@ type RedBookClient struct {
 }
 ```
 
+RedBookClient 小红书客户端结构体
 
 #### func  NewRedBookClient
 
 ```go
 func NewRedBookClient(cfg *config.ClientConfig, logger *logger.Logger, cache cache.ICache) (*RedBookClient, error)
 ```
+NewRedBookClient 创建一个新的小红书客户端实例

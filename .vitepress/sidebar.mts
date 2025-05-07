@@ -1,4 +1,6 @@
 import { menusByteDance, pathByteDance } from "./menus/byteDance.mts"
+import { menusGoogle, pathGoogle } from "./menus/google.mts"
+import { menusRedBook, pathRedBook } from "./menus/redBook.mts"
 import { menusWechat, pathWechat } from "./menus/wechat.mts"
 
 export const sidebar = [
@@ -14,11 +16,19 @@ export const sidebar = [
         // collapsed: true,
         items: menusByteDance
       },
+      {
+        text: '小红书', link: pathRedBook + '/index.md',
+        // collapsed: true,
+        items: menusRedBook
+      },
       { 
         text: '微信', link: pathWechat +'/index.md' ,
         items: menusWechat
       },
-
+      { 
+        text: 'google', link: pathGoogle +'/index.md' ,
+        items: menusGoogle
+      },
     ]
   },
   {

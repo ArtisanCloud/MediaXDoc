@@ -39,14 +39,14 @@ CreateByteDanceDouYin 创建 DouYinClient，支持传入 DouYin 配置
 #### func (*MediaX) CreateGoogleYouTubeACClient
 
 ```go
-func (m *MediaX) CreateGoogleYouTubeACClient(cfg *config.GoogleYouTubeConfig) (*youtube.GoogleYouTubeACClient, error)
+func (m *MediaX) CreateGoogleYouTubeACClient(cfg *config.GoogleYouTubeConfig) (*accessTokenClient3.GoogleYouTubeACClient, error)
 ```
 CreateGoogleYouTube 创建 CreateGoogleYouTube，支持传入 Google 配置
 
 #### func (*MediaX) CreateRedBookJuGuangACClient
 
 ```go
-func (m *MediaX) CreateRedBookJuGuangACClient(cfg *config.RedBookJuGuangConfig) (*juGuang.RedBookJuGuangACClient, error)
+func (m *MediaX) CreateRedBookJuGuangACClient(cfg *config.RedBookJuGuangConfig) (*accessTokenClient2.RedBookJuGuangACClient, error)
 ```
 CreateRedBookJuGuang 创建 RedBookClient，支持传入 RedBook 配置
 
