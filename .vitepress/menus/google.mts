@@ -85,7 +85,7 @@ export const menusGoogle = [
           },
           {
             text: "评论",
-            link: pathGoogleYoutubeAccessTokenClient + "/comment/client.md",
+            link: pathGoogleYoutubeAccessTokenClient + "/comments/client.md",
           },
         ],
       },
