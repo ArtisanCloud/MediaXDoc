@@ -69,6 +69,20 @@ export const menusGoogle = [
               pathGoogleYoutubeAccessTokenClient +
               "/membershipsLevels/client.md",
           },
+          {
+            text: "I18n语言",
+            link:
+              pathGoogleYoutubeAccessTokenClient + "/I18nLanguages/client.md",
+          },
+          {
+            text: "I18n区域",
+            link: pathGoogleYoutubeAccessTokenClient + "/I18nRegions/client.md",
+          },
+          {
+            text: "评论会话",
+            link:
+              pathGoogleYoutubeAccessTokenClient + "/commentThreads/client.md",
+          },
         ],
       },
     ],
