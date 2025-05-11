@@ -96,6 +96,10 @@ export const menusGoogle = [
             text: "频道",
             link: pathGoogleYoutubeAccessTokenClient + "/channels/client.md",
           },
+          {
+            text: "字幕",
+            link: pathGoogleYoutubeAccessTokenClient + "/channels/client.md",
+          },
         ],
       },
     ],
