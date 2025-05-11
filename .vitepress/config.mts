@@ -10,7 +10,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "/" },
+      { text: "首页", link: "/" },
       { text: "MediaX", link: "/docs/mediax/index.md" },
       { text: "MediaX Studio", link: "/docs/mediax-studio/index.md" },
     ],

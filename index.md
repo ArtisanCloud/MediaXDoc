@@ -11,8 +11,8 @@ hero:
       text: 开始
       link: /docs/mediax/
     - theme: alt
-      text: 使用 Pro
-      link: /docs/mediax-pro
+      text: 使用 MediaX Studio
+      link: /docs/mediax-studio
 
 features:
   - title: 智能AI工具
@@ -22,4 +22,3 @@ features:
   - title: 开源SDK
     details: 开源SDK，可以方便开发者自行开发自媒体工具
 ---
-
