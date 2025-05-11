@@ -15,17 +15,14 @@ type BaseRes struct {
 ```
 
 
-#### type OfficialAccountRes
+#### type BiliBiliRes
 
 ```go
-type OfficialAccountRes struct {
+type BiliBiliRes struct {
 	BaseRes
 
-	ErrCode int    `json:"errcode,omitempty"`
-	ErrMsg  string `json:"errmsg,omitempty"`
-
-	ResultCode string `json:"resultcode,omitempty"`
-	ResultMsg  string `json:"resultmsg,omitempty"`
+	RequestId string `json:"request_id"` // 请求ID
+	TTL       int    `json:"ttl"`        // 有效期
 }
 ```
 

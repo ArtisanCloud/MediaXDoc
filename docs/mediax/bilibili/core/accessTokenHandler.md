@@ -10,7 +10,7 @@
 ```go
 type BiliBiliAccessTokenHandler struct {
 	Config             *config.ClientConfig
-	AccessTokenHandler *kernel.AccessTokenHandler
+	AccessTokenHandler *kernel.TokenHandler
 }
 ```
 

@@ -52,6 +52,9 @@ const (
 
 	// RedBook 小红书接口地址
 	RedBookJuGuangAPIUrl string = "https://adapi.xiaohongshu.com/" // 小红书聚光平台 API 地址
+
+	// BiliBili 哔哩哔哩接口地址
+	BiliBiliAPIUrl string = "https://member.bilibili.com/" // 哔哩哔哩开放平台 API 地址
 )
 ```
 各平台的 API 接口地址常量定义

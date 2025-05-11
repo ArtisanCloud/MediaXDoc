@@ -1,3 +1,4 @@
+import { menusBiliBili, pathBiliBili } from "./menus/bilibili.mts";
 import { menusByteDance, pathByteDance } from "./menus/byteDance.mts";
 import { menusGoogle, pathGoogle } from "./menus/google.mts";
 import { menusRedBook, pathRedBook } from "./menus/redBook.mts";
@@ -27,6 +28,11 @@ export const sidebar = [
         text: "微信",
         link: pathWechat + "/index.md",
         items: menusWechat,
+      },
+      {
+        text: "哔哩哔哩",
+        link: pathBiliBili + "/index.md",
+        items: menusBiliBili,
       },
       {
         text: "google",

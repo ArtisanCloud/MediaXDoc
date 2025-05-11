@@ -98,7 +98,7 @@ export const menusGoogle = [
           },
           {
             text: "字幕",
-            link: pathGoogleYoutubeAccessTokenClient + "/channels/client.md",
+            link: pathGoogleYoutubeAccessTokenClient + "/captions/client.md",
           },
         ],
       },
