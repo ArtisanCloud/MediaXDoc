@@ -87,6 +87,15 @@ export const menusGoogle = [
             text: "评论",
             link: pathGoogleYoutubeAccessTokenClient + "/comments/client.md",
           },
+          {
+            text: "频道板块",
+            link:
+              pathGoogleYoutubeAccessTokenClient + "/channelBanners/client.md",
+          },
+          {
+            text: "频道",
+            link: pathGoogleYoutubeAccessTokenClient + "/channels/client.md",
+          },
         ],
       },
     ],
