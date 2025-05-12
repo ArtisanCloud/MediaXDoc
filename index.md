@@ -15,10 +15,10 @@ hero:
       link: /docs/mediax-studio
 
 features:
-  - title: 智能AI工具
-    details: 集成AI智能模块，多模态模型支撑多媒体应用场景
+  - title: 多平台开源SDK
+    details: 多平台开源SDK，可以方便开发者自行开发自媒体工具
   - title: 开放服务中台
     details: 提供OpenAPI和GRPC接口，可以作为一个中台服务
-  - title: 开源SDK
-    details: 开源SDK，可以方便开发者自行开发自媒体工具
+  - title: 智能AI工具
+    details: 集成AI智能模块，多模态模型支撑多媒体应用场景
 ---
