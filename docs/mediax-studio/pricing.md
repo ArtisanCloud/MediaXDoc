@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: false
 aside: false
 title: Pricing
 description: MediaX Studio pricing

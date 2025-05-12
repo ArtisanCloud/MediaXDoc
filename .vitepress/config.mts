@@ -13,6 +13,17 @@ export default defineConfig({
       { text: "首页", link: "/" },
       { text: "MediaX", link: "/docs/mediax/index.md" },
       { text: "MediaX Studio", link: "/docs/mediax-studio/index.md" },
+      {
+        text: "更多产品",
+        items: [
+          {
+            text: "PowerWechat",
+            link: "https://powerwechat.artisan-cloud.com",
+          },
+          { text: "MediaX", link: "https://mediax.artisan-cloud.com" },
+          { text: "PowerX", link: "https://powerx.artisan-cloud.com" },
+        ],
+      },
       // { text: "购买MediaX Studio", link: "/docs/mediax-studio/pricing.md" },
       { text: "联系我们", link: "/docs/contact-us.md" },
     ],
