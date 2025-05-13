@@ -15,28 +15,31 @@ export const sidebar = [
       {
         text: "字节",
         link: pathByteDance + "/index.md",
-        // collapsed: true,
+        collapsed: true,
         items: menusByteDance,
       },
       {
         text: "小红书",
         link: pathRedBook + "/index.md",
-        // collapsed: true,
+        collapsed: true,
         items: menusRedBook,
       },
       {
         text: "微信",
         link: pathWechat + "/index.md",
+        collapsed: true,
         items: menusWechat,
       },
       {
         text: "哔哩哔哩",
         link: pathBiliBili + "/index.md",
+        collapsed: true,
         items: menusBiliBili,
       },
       {
         text: "google",
         link: pathGoogle + "/index.md",
+        collapsed: true,
         items: menusGoogle,
       },
     ],
