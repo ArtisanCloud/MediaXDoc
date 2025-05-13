@@ -1,4 +1,4 @@
-export const pathBiliBili = "/docs/mediax/biliBili";
+export const pathBiliBili = "/docs/mediax/bilibili";
 export const pathBiliBiliB = pathBiliBili + "/b";
 export const pathBiliBiliCore = pathBiliBiliB + "/core";
 export const pathBiliBiliBAccessTokenClient =
