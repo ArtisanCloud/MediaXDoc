@@ -9,7 +9,6 @@ export const pathGoogleYoutubeClientTokenClient =
 export const menusGoogle = [
   {
     text: "YouTube",
-    link: pathGoogleYoutube + "/index.md",
     collapsed: true,
     items: [
       {

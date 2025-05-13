@@ -4,9 +4,8 @@ import { sidebar } from "./sidebar.mts";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/",
-  title: "MediaX Doc",
-  description:
-    "A MediaX Doc website describe how to learn and use MediaX SDK and MediaX Studio",
+  title: "MediaX",
+  description: "A MediaX 是一套配合自媒体",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

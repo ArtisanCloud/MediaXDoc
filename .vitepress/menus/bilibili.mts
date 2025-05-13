@@ -9,7 +9,7 @@ export const pathBiliBiliBClientTokenClient =
 export const menusBiliBili = [
   {
     text: "B站",
-    link: pathBiliBiliB + "/index.md",
+    // link: pathBiliBiliB + "/index.md",
     collapsed: true,
     items: [
       {
