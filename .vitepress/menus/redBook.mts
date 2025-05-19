@@ -38,7 +38,7 @@ export const menusRedBook = [
                 text: "实时报表",
                 link:
                   pathRedBookJuGuangAccessTokenClient +
-                  "/dataReport/online/client.md",
+                  "/dataReport/realtime/client.md",
               },
             ],
           },
