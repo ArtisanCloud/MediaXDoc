@@ -13,12 +13,14 @@ type JuGuangPromoteCampaignClient struct {
 }
 ```
 
+## JuGuangPromoteCampaignClient 推广计划客户端
 
 #### func  NewClient
 
 ```go
 func NewClient(c *kernel.BaseClient) *JuGuangPromoteCampaignClient
 ```
+## NewClient 新建推广计划客户端
 
 #### func (*JuGuangPromoteCampaignClient) Create
 
