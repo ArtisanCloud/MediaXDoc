@@ -1,4 +1,4 @@
-export const pathGoogle = "/docs/mediax/google";
+export const pathGoogle = "/docs/mediax-sdk/google";
 export const pathGoogleYoutube = pathGoogle + "/youtube";
 export const pathGoogleCore = pathGoogleYoutube + "/core";
 export const pathGoogleYoutubeAccessTokenClient =

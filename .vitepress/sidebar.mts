@@ -6,12 +6,17 @@ import { menusWechat, pathWechat } from "./menus/wechat.mts";
 
 export const sidebar = [
   {
-    text: "MediaX",
+    text: "开始",
+    items: [
+      { text: "概述", link: "/docs/start/index.md" },
+      { text: "快速开始", link: "/docs/start/quickStart.md" },
+      { text: "授权类型", link: "/docs/start/token.md" },
+    ],
+  },
+  {
+    text: "MediaX SDK",
     // collapsed: true,
     items: [
-      { text: "概述", link: "/docs/mediax/index.md" },
-      { text: "快速开始", link: "/docs/mediax/quickStart.md" },
-      { text: "授权类型", link: "/docs/mediax/token.md" },
       {
         text: "字节",
         link: pathByteDance + "/index.md",

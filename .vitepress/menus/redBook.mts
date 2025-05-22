@@ -1,4 +1,4 @@
-export const pathRedBook = "/docs/mediax/redbook";
+export const pathRedBook = "/docs/mediax-sdk/redbook";
 export const pathRedBookJuGuang = pathRedBook + "/juGuang";
 export const pathRedBookCore = pathRedBookJuGuang + "/core";
 export const pathRedBookJuGuangAccessTokenClient =

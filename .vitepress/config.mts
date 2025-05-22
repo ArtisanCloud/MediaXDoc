@@ -5,12 +5,12 @@ import { sidebar } from "./sidebar.mts";
 export default defineConfig({
   base: "/",
   title: "MediaX",
-  description: "A MediaX 是一套配合自媒体",
+  description: "MediaX SDK是一个用于构建媒体应用程序的工具包。",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
-      { text: "MediaX", link: "/docs/mediax/index.md" },
+      { text: "MediaX SDK", link: "/docs/mediax-sdk/index.md" },
       { text: "MediaX Studio", link: "/docs/mediax-studio/index.md" },
       {
         text: "更多产品",

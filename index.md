@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /docs/mediax/
+      link: /docs/start
     - theme: alt
       text: 使用 MediaX Studio
       link: /docs/mediax-studio
