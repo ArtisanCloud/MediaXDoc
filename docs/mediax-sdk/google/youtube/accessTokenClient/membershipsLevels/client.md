@@ -39,9 +39,9 @@ https://developers.google.cn/youtube/v3/docs/membershipsLevels/list?hl=zh-cn
 
 注意事项：
 
-    • 仅限个人创作者使用此接口
-    • 需要频道已启用会员功能
-    • 调用此方法的配额费用为 1 个单位
+    - 仅限个人创作者使用此接口
+    - 需要频道已启用会员功能
+    - 调用此方法的配额费用为 1 个单位
 
 参数：
 

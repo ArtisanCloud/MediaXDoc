@@ -25,6 +25,22 @@ export const menusBiliBili = [
             text: "视频稿件",
             link: pathBiliBiliBAccessTokenClient + "/video/client.md",
           },
+          {
+            text: "文稿管理",
+            link: pathBiliBiliBAccessTokenClient + "/article/client.md",
+            items: [
+              {
+                text: "专栏文稿",
+                link: pathBiliBiliBAccessTokenClient + "/article/client.md",
+              },
+              {
+                text: "专栏集合",
+                link:
+                  pathBiliBiliBAccessTokenClient +
+                  "/article/collection/client.md",
+              },
+            ],
+          },
         ],
       },
     ],

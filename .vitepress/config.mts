@@ -10,7 +10,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
-      { text: "MediaX SDK", link: "/docs/mediax-sdk/index.md" },
+      { text: "MediaX SDK", link: "/docs/mediax-sdk/mediaX.md" },
       { text: "MediaX Studio", link: "/docs/mediax-studio/index.md" },
       {
         text: "更多产品",
