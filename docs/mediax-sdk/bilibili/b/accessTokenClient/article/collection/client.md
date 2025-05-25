@@ -42,7 +42,7 @@ func (c *BiliBiliArticleCollectionClient) Delete(ctx context.Context, data *sche
 ```go
 func (c *BiliBiliArticleCollectionClient) Detail(ctx context.Context, data *schema.BiliBiliArticleCollectionDetailReq) (*schema.BiliBiliArticleCollectionDetailRes, error)
 ```
-查询文集详情 ## Detail 查询文集详情
+## Detail 查询文集详情
 
 接口文档参考：
 https://open.bilibili.com/doc/4/78228e26-1c25-5b65-e107-a08dabf45850#h1-u6587u96C6u4E0Bu6587u7AE0u5217u8868u4FEEu6539
@@ -120,7 +120,7 @@ func (c *BiliBiliArticleCollectionClient) EditList(ctx context.Context, data *sc
 ```go
 func (c *BiliBiliArticleCollectionClient) List(ctx context.Context) (*schema.BiliBiliArticleCollectionListRes, error)
 ```
-查询文集列表 ## List 查询文集列表
+## List 查询文集列表
 
 接口文档参考：
 https://open.bilibili.com/doc/4/1caef1c1-0576-91e3-00ed-c287e9866d7e#h1-u67E5u8BE2u6587u96C6u5217u8868
