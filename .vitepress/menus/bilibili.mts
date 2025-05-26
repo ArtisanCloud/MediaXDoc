@@ -27,7 +27,6 @@ export const menusBiliBili = [
           },
           {
             text: "文稿管理",
-            link: pathBiliBiliBAccessTokenClient + "/article/client.md",
             items: [
               {
                 text: "专栏文稿",
@@ -38,6 +37,24 @@ export const menusBiliBili = [
                 link:
                   pathBiliBiliBAccessTokenClient +
                   "/article/collection/client.md",
+              },
+            ],
+          },
+          {
+            text: "开放数据",
+            link: pathBiliBiliBAccessTokenClient + "/data/client.md",
+          },
+          {
+            text: "直播能力",
+            items: [
+              {
+                text: "直播长连接",
+                link: pathBiliBiliBAccessTokenClient + "/live/ws/client.md",
+              },
+              {
+                text: "开播嵌入能力",
+                link:
+                  pathBiliBiliBAccessTokenClient + "/live/thirdParty/client.md",
               },
             ],
           },

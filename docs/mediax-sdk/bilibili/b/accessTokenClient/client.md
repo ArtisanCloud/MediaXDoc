@@ -12,8 +12,8 @@ type BiliBiliACClient struct {
 	// BiliBiliClient B站基础客户端，提供核心API调用功能
 	BiliBiliClient *core.BiliBiliClient
 
-	// YouTubeConfig YouTube相关配置，用于跨平台功能集成
-	YouTubeConfig *config.BiliBiliConfig
+	// BiliBiliConfig BiliBili相关配置，用于跨平台功能集成
+	BiliBiliConfig *config.BiliBiliConfig
 
 	// AccessTokenHandler 访问令牌处理器，负责令牌的获取和刷新
 	AccessTokenHandler *core.BiliBiliAccessTokenHandler
