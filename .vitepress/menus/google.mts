@@ -1,10 +1,13 @@
 export const pathGoogle = "/docs/mediax-sdk/google";
 export const pathGoogleYoutube = pathGoogle + "/youtube";
+export const pathGoogleBlogger = pathGoogle + "/blogger";
 export const pathGoogleCore = pathGoogleYoutube + "/core";
 export const pathGoogleYoutubeAccessTokenClient =
   pathGoogleYoutube + "/accessTokenClient";
 export const pathGoogleYoutubeClientTokenClient =
   pathGoogleYoutube + "/clientTokenClient";
+export const pathGoogleBloggerAccessTokenClient =
+  pathGoogleBlogger + "/accessTokenClient";
 
 export const menusGoogle = [
   {
@@ -98,6 +101,28 @@ export const menusGoogle = [
           {
             text: "字幕",
             link: pathGoogleYoutubeAccessTokenClient + "/captions/client.md",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    text: "Blogger",
+    collapsed: true,
+    items: [
+      {
+        text: "AccessToken模式",
+        link: pathGoogleBloggerAccessTokenClient + "/client.md",
+        collapsed: true,
+        items: [
+          {
+            text: "博客",
+            link: pathGoogleBloggerAccessTokenClient + "/blogs/client.md",
+          },
+          {
+            text: "博客用户信息",
+            link:
+              pathGoogleBloggerAccessTokenClient + "/blogUserInfos/client.md",
           },
         ],
       },
