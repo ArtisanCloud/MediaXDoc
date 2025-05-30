@@ -124,6 +124,10 @@ export const menusGoogle = [
             link:
               pathGoogleBloggerAccessTokenClient + "/blogUserInfos/client.md",
           },
+          {
+            text: "评论",
+            link: pathGoogleBloggerAccessTokenClient + "/comments/client.md",
+          },
         ],
       },
     ],
