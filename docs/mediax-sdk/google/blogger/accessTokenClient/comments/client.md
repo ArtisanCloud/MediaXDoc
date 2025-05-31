@@ -13,12 +13,14 @@ type BloggerCommentsClient struct {
 }
 ```
 
+BloggerCommentsClient 评论客户端
 
 #### func  NewClient
 
 ```go
 func NewClient(c *kernel.BaseClient) *BloggerCommentsClient
 ```
+NewClient 创建一个新的 BloggerCommentsClient 实例
 
 #### func (*BloggerCommentsClient) Approve
 

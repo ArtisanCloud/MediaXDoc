@@ -1,4 +1,4 @@
-# postUserInfos
+# postuserinfos
 --
     import "."
 
