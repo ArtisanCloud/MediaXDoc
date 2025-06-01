@@ -132,18 +132,18 @@ export const menusGoogle = [
             text: "页面",
             link: pathGoogleBloggerAccessTokenClient + "/pages/client.md",
           },
-          // {
-          //   text: "帖子",
-          //   link: pathGoogleBloggerAccessTokenClient + "/posts/client.md",
-          // },
+          {
+            text: "帖子",
+            link: pathGoogleBloggerAccessTokenClient + "/posts/client.md",
+          },
           // {
           //   text: "用户",
           //   link: pathGoogleBloggerAccessTokenClient + "/users/client.md",
           // },
-          // {
-          //   text: "网页浏览信息",
-          //   link: pathGoogleBloggerAccessTokenClient + "/pageViews/client.md",
-          // },
+          {
+            text: "网页浏览信息",
+            link: pathGoogleBloggerAccessTokenClient + "/pageViews/client.md",
+          },
           // {
           //   text: "发布用户信息",
           //   link:
