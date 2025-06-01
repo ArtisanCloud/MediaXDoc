@@ -30,7 +30,7 @@ func (c *BloggerBlogUserInfosClient) Get(ctx context.Context, blogId string, use
 ## Get - 通过blogId和userId获取博客和用户信息对
 
 接口文档参考：
-https://developers.google.com/blogger/docs/3.0/reference/blogUserInfos/get?hl=zh-cn
+https://developers.google.com/blogger/docs/3.0/reference/users/get?hl=zh-cn
 
 参数：
 
